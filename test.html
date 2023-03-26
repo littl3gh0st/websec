@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Search</title>
+    <style>
+      #search-box {
+        width: 40%;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+        margin-bottom: 10px;
+      }
+      #a {
+        margin-top: 200px;
+      }
+      #b {
+        font-size: 100px;
+      }
+      #c {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="a" align="center">
+    <form action="https://www.google.com/search" method="get" target="_blank">
+      <label id="b" for="search-box">Google</label><br>
+      <br>
+      <img src="a.png" width="150px" height="100px"><br>
+      <br>
+      <input type="text" placeholder="Search Google or type a URL" id="search-box" name="q">
+      <button type="submit" id="c">Search</button>
+    </form>
+    </div>
+  </body>
+</html>
